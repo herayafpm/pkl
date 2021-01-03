@@ -1,0 +1,241 @@
+/*navbar*/
+.navbar-frist {
+    background-color: #007bff !important;
+}
+
+.navbar-frist a {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.navbar-frist-image {
+    margin-right: 5px;
+}
+
+.navbar-two .nav-link {
+    margin-right: 35px;
+}
+
+.navbar-two a {
+    color: black !important;
+    font-weight: lighter;
+}
+
+.navbar-toggler {
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*end navbar*/
+
+/*jumbotron*/
+.jumbotron {
+    background-image: url('../../../image/user/index/jumbotron-bg.jpg');
+    height: 450px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/*info panel*/
+
+.pembatas {
+    width: 380px;
+    border-bottom: 3px solid #007bff;
+    margin-bottom: 35px;
+    margin: 0 auto;
+}
+
+/* .tes {
+    box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.2);
+} */
+
+
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    height: 880px;
+    margin: -100px 25px 0px 25px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info-panel h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.info-panel p {
+    font-size: 14;
+    margin-top: -5px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.info-panel a {
+    text-decoration: none;
+    color: black;
+}
+
+.info-panel a:hover {
+    color: #383632;
+}
+
+
+/*workingspace*/
+.workingspace {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.workingspace h3 {
+    font-size: 50px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.workingspace p {
+    font-weight: 200;
+    margin: 30px 0;
+}
+
+
+
+.workingspace {
+    margin: 80px 0px 80px 0;
+    text-align: center;
+}
+
+.form-user {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-password {
+    width: 300px;
+    margin: auto;
+}
+
+.page-footer {
+    background-color: #007bff !important;
+    color: white;
+}
+
+/* versi desktop*/
+@media (min-width: 992px) {
+
+    .navbar-frist {
+        background-color: #007bff !important;
+    }
+
+    .navbar-frist a {
+        margin-left: 30px;
+        font-weight: bold;
+    }
+
+    .navbar-frist-image {
+        margin-right: 15px;
+    }
+
+    .navbar-two .nav-link {
+        margin-right: 25px;
+    }
+
+    .navbar-two a {
+        color: black !important;
+        font-weight: lighter;
+    }
+
+    .navbar-nav {
+        margin-top: 0;
+    }
+
+    .tes {
+        border: 2px solid #2a52a8;
+    }
+
+    .info-panel {
+        box-shadow: 0 3px 30px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        margin-top: -100px;
+        background-color: white;
+        height: 430px;
+        margin: -100px 0px 0px 0px;
+    }
+
+    .info-panel h4 {
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .info-panel p {
+        font-size: 14;
+        margin-top: 5px;
+        font-weight: 200;
+        text-align: center;
+    }
+
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 600px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 55px;
+        margin-top: 150px;
+        text-align: left;
+    }
+
+    .wc-box {
+        border-left: 5px solid #007bff;
+    }
+
+    .workingspace {
+        margin: 80px 0px 80px 0;
+        text-align: left;
+    }
+
+    .form-user {
+        width: 300px;
+        margin: 0;
+    }
+
+    .form-password {
+        width: 300px;
+        margin: 0;
+    }
+
+    .page-footer {
+        background-color: #007bff !important;
+        color: white;
+    }
+
+}
